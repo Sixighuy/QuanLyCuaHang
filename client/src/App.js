@@ -18,8 +18,6 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    // Always try to load user from token when app starts
-    // This will handle both cases: with token and without token
     dispatch(loadUser());
   }, [dispatch]);
 
