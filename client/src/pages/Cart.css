@@ -1,0 +1,133 @@
+.cart {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.cart h1 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.empty-cart {
+  text-align: center;
+  padding: 3rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.empty-cart p {
+  font-size: 1.5rem;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+.cart-items {
+  margin-bottom: 2rem;
+}
+
+.cart-item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item-info h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.cart-item-info p {
+  color: #7f8c8d;
+  margin-bottom: 0.25rem;
+}
+
+.cart-item-price {
+  font-weight: 700;
+  color: #e74c3c;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+}
+
+.cart-item-price::after {
+  content: '';
+  margin-left: 0.25rem;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+.cart-summary {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+}
+
+.cart-balance-info {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.cart-balance-info p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.cart-balance-info strong {
+  color: #667eea;
+  font-size: 1.1rem;
+}
+
+.balance-warning {
+  color: #e74c3c !important;
+  font-size: 0.9rem;
+}
+
+.balance-warning a {
+  color: #667eea;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.cart-total {
+  margin-bottom: 1.5rem;
+}
+
+.cart-total h2 {
+  color: #2c3e50;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.cart-total h2::after {
+  content: '';
+  margin-left: 0.5rem;
+}
+
+.btn-large {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
