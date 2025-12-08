@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "create-admin": "node scripts/createAdmin.js",
+    "create-admin-simple": "node scripts/createAdminSimple.js",
+    "migrate-images": "node scripts/addImagesColumn.js",
+    "migrate-balance": "node scripts/addBalanceColumn.js",
+    "migrate-customer-code": "node scripts/addCustomerCodeAndTopupTable.js",
+    "migrate-featured-image": "node scripts/addFeaturedImageColumn.js",
+    "migrate-expand-decimal": "node scripts/expandDecimalColumns.js",
+    "migrate-import-price": "node scripts/addImportPriceColumn.js",
+    "remove-unused-games": "node scripts/removeUnusedGames.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.3",
+    "qrcode.react": "^4.2.0"
+  }
+}
